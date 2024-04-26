@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    background-color: rgb(255, 255, 255);
+    font-family: "Merienda", cursive;    
+}
+
+.top-strip h3{
+    background-color: #6e22b1;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.img{
+    width: 100%;
+    padding: 40px;
+
+    background-color: #6F27AF;
+    position: relative;
+}
+.section-1{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 30px;
+    border-radius: 20px;
+}
+.section-2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+   right: 10%;
+   padding: 20px;
+   border-radius: 20px;
+}
+.section-3{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.section-4{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card{
+    width: 40%;
+    border: none;
+}
+.card-body{
+    background-color: white;
+}
+.p{
+   
+    padding:15px 0 0 0;
+}
+.flex p{
+    font-size: 1.2vw;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.card-title{
+    background-color: white;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    background-color: white;
+
+}
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F27AF;
+ height: 50px;
+ padding: 10px;
+ color: white;
+}
+.flex-2 p{
+background-color: #6F27AF;
+}
+
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+
+}
+.flex-3 p{
+    color: rgb(209, 209, 209);
+    background-color: white;
+
+}
+.flex-3 .web{
+    font-weight: 600;
+    color: black;
+    background-color: white;
+
+}
+header button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button,a{
+    border: none;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+button,a:hover{
+    border: none;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: .4s all linear;
+}
+@media (max-width:991px){
+    .section-4{
+        display: none;
+    }
+    .flex p{
+        padding: 7px;
+    }
+    .flex-2{
+        height: 30px;
+    }
+}
